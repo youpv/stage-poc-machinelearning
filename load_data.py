@@ -19,3 +19,5 @@ reader = Reader(rating_scale=(1, 5))
 data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
 # Loads the builtin Movielens-100k data
 movielens = Dataset.load_builtin('ml-100k')
+
+# ml-100k wel ff toevoegen enzo
